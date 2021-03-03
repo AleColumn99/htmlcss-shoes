@@ -9,9 +9,14 @@ body {
   font-family: 'Rubik Mono One', sans-serif;
 }
 
+.container {
+  width: 100%;
+  margin: auto;
+}
+
 /* HEADER - NAV MENU */
 
-header {
+nav {
   position: fixed;
   margin: auto;
   z-index: 1;
@@ -45,11 +50,6 @@ nav ul li a:hover .round-button {
 
 /* MAIN */
 
-.container {
-  width: 100%;
-  margin: auto;
-}
-
 .shoe {
   position: relative;
   width: 100%;
@@ -73,10 +73,10 @@ nav ul li a:hover .round-button {
 
 main .model {
   position: absolute;
-  font-size: 50px;
+  font-size: 3vw;
   text-transform: uppercase;
   text-align: center;
-  top: 50vh;
+  top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
