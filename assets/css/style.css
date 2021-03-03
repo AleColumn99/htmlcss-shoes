@@ -24,27 +24,29 @@ nav {
   right: 10px;
 }
 
-nav .round-button {
-  display: inline-block;
-  width: 50px;
-  height: 50px;
-  border-radius: 25px;
-  background-color: white;
+nav ul {
+  float: left;
 }
 
 nav ul li {
-  display: inline;
-  padding-left: 20px;
-  line-height: 50px;
-  text-align: center;
+  list-style: none;
+  float: left;
 }
 
 nav ul li a {
+  display: block;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  border-radius: 50%;
+  text-align: center;
+  background-color: white;
   text-decoration: none;
   color: black;
+  margin: 40px 20px;
 }
 
-nav ul li a:hover .round-button {
+nav ul li a:hover {
   box-shadow: 0px 0px 5px black;
 }
 
